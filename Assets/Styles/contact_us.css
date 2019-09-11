@@ -1,0 +1,30 @@
+#contact-us {
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+#contact-us p {
+    margin: 0;
+}
+#contact-us-form {
+    margin-top: 35px;
+}
+#contact-form input[type=text] {
+    height: 45px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: 1px solid #0188bf;
+}
+#contact-form textarea {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    padding: 10px 0px 0px 10px;
+    border-radius: 2px;
+    border: 1px solid #0188bf;
+    height: auto !important;
+}
+#newsletter {
+    display: flex;
+    align-items: center;
+}

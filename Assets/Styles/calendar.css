@@ -1,0 +1,33 @@
+tr.mn-cal-rows-weekday td {
+    background-color: #8dc63f !important;
+    height: 30px !important;
+    vertical-align: middle !important;
+    text-transform: uppercase !important;
+    border: 1px solid #000 !important;
+}
+tr.mn-cal-header-sep {
+    display: none !important;
+}
+.mn-cal-days {
+    text-align: left !important;
+}
+#mn-content .mn-cal-days span,
+#mn-content .mn-cal-days a {
+    font-size: 20px !important;
+    line-height: 24px !important;
+    padding-left: 3px;
+}
+#mn-content .mn-cal-days {
+    height: 100px !important;
+}
+#mn-content .mn-cal-day li {
+    background-color: #25aae1 !important;
+    padding: 5px;
+    border-radius: 3px;
+    margin: auto 10px;
+}
+#mn-content .mn-cal-day ul li a {
+    font-size: 12px !important;
+    line-height: 20px !important;
+    color: #fff;
+}

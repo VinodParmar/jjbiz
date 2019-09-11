@@ -1,0 +1,127 @@
+#events {
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.sign-events-wrapper {
+    display: flex;
+    display: none;
+}
+.sign-events-wrapper a {
+    color: #fff;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    filter: alpha(opacity=50);
+    -webkit-transition: opacity 1s linear;
+}
+.overlay:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=100);
+    -webkit-transition: opacity 1s linear;
+}
+.mn-scroll-container {
+    margin: 0px !important;
+}
+#upcoming-events ul,
+.mn-scroll-slider {
+    padding: 0;
+    padding-bottom: 10px;
+    max-height: 220px;
+    overflow-y: auto;
+}
+#upcoming-events ul li,
+.mn-scroll-item {
+    display: flex;
+    border-bottom: 1px solid #DEDEDE;
+    margin: 0px !important;
+}
+.upcoming-events-date,
+.mn-scroll-date {
+    display: flex;
+    width: 80px !important;
+    background-color: #f6f6f6;
+    box-sizing: border-box;
+    border-right: 1px dashed #DEDEDE;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    padding-top: 5px;
+    justify-content: center;
+}
+.upcoming-events-desc,
+.mn-scroll-link {
+    display: flex;
+    align-items: center;
+    padding-left: 10px !important;
+    width: 100%;
+}
+.upcoming-events-desc a {
+    color: #000;
+}
+a {
+    text-decoration: none;
+}
+#signature-events {
+    padding-left: 40px;
+    width: 65%;
+    padding-bottom: 20px;
+}
+#events h2 {
+    color: #000;
+}
+#events a:hover {
+    text-decoration: none !important;
+}
+.sig-calendar {
+    line-height: 23px;
+    position: absolute;
+    top: 20px;
+}
+.sig-date {
+    font-size: 2.5em;
+    position: relative;
+    right: 5px;
+}
+.sig-month {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+}
+.sig-event-time-loc {
+    position: absolute;
+    bottom: 20px;
+}
+.sig-timing {
+    font-size: 0.7em;
+    line-height: 16px;
+}
+.sig-loc {
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
+.sig-title {
+    max-width: 215px;
+}
+.sign-events-wrapper {
+    display: none;
+}
+.sign-events-wrapper.slick-initialized {
+    display: block;
+}

@@ -1,0 +1,106 @@
+#footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+#footer-top a {
+    color: #fff;
+    display: initial;
+}
+#footer-top li:hover {
+    color: #d6d6d6;
+}
+#footer-top em {
+    font-size: 0.9em;
+}
+#footer-top a:hover {
+    text-decoration: underline;
+}
+#member-news-feed {
+    margin-top: 20px;
+}
+#member-news-feed ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+#member-news-feed ul li {
+    background-image: url('../images/double-arrowhead-right.png');
+    background-repeat: no-repeat;
+    background-size: 10px;
+    padding-left: 19px;
+    padding-bottom: 10px;
+    background-position: 0px 7px;
+}
+#twitter-feed {
+    margin: 20px 0;
+}
+#twitter-feed ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+#twitter-feed ul li {
+    background-image: url('../images/twitter-feed.png');
+    background-repeat: no-repeat;
+    background-size: 17px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    background-position: 0px 4px;
+}
+#technews-feed {
+    margin-top: 20px;
+}
+#gallery-feed {
+    margin-top: 20px;
+}
+#gallery-feed a {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+#gallery-feed a:hover {
+    transition: all 0.3s linear;
+    transform: scale(1.8);
+    box-shadow: 0px -1px 15px 2px #424242
+}
+#grid-img {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer-btm {
+    display: flex;
+    justify-content: space-between;
+}
+#copyright {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 8px;
+}
+#copyright img {
+    opacity: 0.75;
+}
+#copyright span {
+    line-height: 20px;
+    margin: 10px 0px 0px 10px;
+}
+#footer-nav {
+    margin-top: 10px;
+}
+#footer-nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+#footer-nav a {
+    color: gray;
+}
+#footer-nav ul li {
+    padding: 0px 7px;
+    display: flex;
+    align-items: center;
+}
+.bdr-r-gray {
+    border-right: 2px solid gray;
+    height: 15px;
+}

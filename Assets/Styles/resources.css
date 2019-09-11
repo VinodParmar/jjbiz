@@ -1,0 +1,48 @@
+#resources {
+    margin-top: 30px;
+}
+#resources a {
+    color: #000;
+    width: 30%;
+}
+#resource a:hover {
+    text-decoration: none !important;
+}
+#resources button {
+    width: 210px;
+}
+.resources-types {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    position: relative;
+}
+.resource {
+    position: relative;
+    padding: 10px 10px 0px 20px;
+    height: 140px;
+}
+.resource img {
+    height: 47px;
+    margin-right: 6px;
+    margin-left: -8px;
+}
+.img-dots-l {
+    position: absolute;
+    top: 134px;
+    height: 24px;
+    left: 214px;
+    z-index: 1000;
+}
+.img-dots-r {
+    position: absolute;
+    top: 134px;
+    height: 24px;
+    right: 292px;
+    z-index: 1000;
+}
+.resource-head {
+    display: flex;
+    align-items: center;
+    line-height: 18px;
+}
